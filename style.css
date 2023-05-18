@@ -6,11 +6,10 @@
 .img .name{
     float: right;
     width: 40px;
-    height: ;
 }
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
-    background-image: url(img/fondo3.jpg);
+    background-image: url(img/fondo.jpg);
     background-size: cover;
 }
 
