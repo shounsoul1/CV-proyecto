@@ -6,7 +6,7 @@
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
     background-image: url(img/fondo.jpg);
-    background-size: cover;
+    background-size: cover !important;
 }
 .nombre_apellido{
     color: aqua;
@@ -26,12 +26,14 @@
 }
 .contenido_sobre-mi{
     color: yellow;
-    width: 550px;
-    text-align: right;
+    background-color: rgba(9, 103, 165, 0.5);
+    position: relative;
+    left: 450px;
+    
 }
 .skills{
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(40, 15, 133, 0.5);
     position: relative;
-    left: 850px;
+    left: 750px;
     bottom: 193.6px;
 }
