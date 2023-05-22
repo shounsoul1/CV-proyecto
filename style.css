@@ -7,33 +7,46 @@
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
     background-image: url(img/fondo.jpg);
     background-size: cover !important;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 .nombre_apellido{
     color: aqua;
-    font-size: 25px;
+    font-size: 50px;
 }
 .info-extra{
     color: brown;
+    font-size: 23px;
 }
 .background_profile{
     width: 100%;
     text-align: center;
     background-color: rgba(0,0,0,.5);
-    padding:40px;
+    padding:20px;
 }
-.image-profile{
-    height:180px;
-}
-.contenido_sobre-mi{
-    color: yellow;
-    background-color: rgba(9, 103, 165, 0.5);
+.skills{ 
+    display: inline-block;
+    text-align:justify;
+    background-color:rgba(38, 55, 209, 0.2);  
+    list-style-type: circle;
     position: relative;
-    left: 450px;
-    
+    top: 50% !important;
+    left: 58%;
 }
-.skills{
-    background-color: rgba(40, 15, 133, 0.5);
+.background_contenido a{
+    text-decoration: none;
+    color: #fff;
+}
+.contacto{
+    color: aqua;
+    border-top: 5px dotted #fff;
+} 
+.background_contenido{
+    display: inline-block;
     position: relative;
-    left: 750px;
-    bottom: 193.6px;
+    width: 19%;
+    left: 30%;
+    text-align: justify;
+    background-color: rgba(139, 9, 63, 0.3);
 }
