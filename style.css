@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto Mono', monospace;
     margin: 0px;
     padding: 0px;
 }
@@ -15,49 +16,80 @@ body{
     display: inline-block;
 }
 .nombre_apellido{
-    color: aqua;
+    color: rgb(80, 180, 34);
     font-size: 50px;
+    font-style: italic;
+    opacity: 0.8;
+    text-shadow: 6px 2px 4px rgb(212, 65, 54) ;
 }
 .info-extra{
-    color: brown;
+    color: rgb(42, 165, 48);
     font-size: 23px;
+    text-shadow: 1px 1px 2px;
 }
 .background_profile{
     width: 100%;
     text-align: center;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(13, 179, 68, 0.219);
     padding:20px;
+    margin-top: 3%;
+    
 }
 .datos-cv{
-    background-color: rgba(106, 182, 20, 0.2);
     position:absolute;
-    height: 59%;
-    width: 45%;
-    top: 19%;
-    right: 4%;
+    height: 100%;
+    width: 100%;
+    top:25%;
+    right: 0%;
+
 }
 .skills{ 
     text-align:justify;
-    background-color:rgba(38, 55, 209, 0.2);  
+    background-color:rgba(38, 55, 209, 0.2); 
     list-style-type: circle;
     position: relative;
-    width:93%;
-    padding-left: 5.7%;
-    display: inline-;
-    height: 100%;
+    width:23%;
+    left: 51%;
+    top: 1%;
+    padding-bottom: 100%;
+    padding-left: 1.7%;
+    height:50%;
 }
+.skills .titulo1{
+    color:rgb(221, 27, 27);
+    text-shadow: 2px 1px 1px rgb(226, 74, 27);
+}
+.skills .titulo2{
+    color:rgba(219, 19, 19, 0.562);
+}
+.skills .texto{
+    color:rgb(179, 64, 64);
+}
+
 .background_contenido a{
     text-decoration: none;
-    color: #fff;
+    color:rgb(83, 162, 236);
 }
 .contacto{
     color: aqua;
     border-top: 5px dotted #fff;
 } 
+.contenido_sobre-mi{
+    height: 100%;
+}
 .background_contenido{
     position: relative;
     width: 19%;
+    height: 100%;
     left: 32.1%;
     text-align: justify;
     background-color: rgba(139, 9, 63, 0.3);
+}
+.background_contenido .titulo{
+    color: rgb(0, 96, 185);
+    text-shadow: 2px 2px 1px rgb(122, 9, 88);
+}
+.background_contenido .texto{
+    color:rgb(83, 162, 236);
+    
 }
