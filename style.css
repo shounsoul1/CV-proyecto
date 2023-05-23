@@ -55,6 +55,9 @@ body{
     padding-left: 1.7%;
     height:50%;
 }
+ul{
+    color: rgb(231, 100, 12);
+}
 .skills .titulo1{
     color:rgb(221, 27, 27);
     text-shadow: 2px 1px 1px rgb(226, 74, 27);
@@ -89,7 +92,14 @@ body{
     color: rgb(0, 96, 185);
     text-shadow: 2px 2px 1px rgb(122, 9, 88);
 }
-.background_contenido .texto{
+.background_contenido .profile-description{
     color:rgb(83, 162, 236);
     
+}
+.image-profile{
+    position: absolute;
+    right: 69%;
+    top:29%;
+    border:  3px solid yellowgreen;
+    border-radius: 5px;
 }
