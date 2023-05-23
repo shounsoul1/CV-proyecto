@@ -28,13 +28,23 @@ body{
     background-color: rgba(0,0,0,.5);
     padding:20px;
 }
+.datos-cv{
+    background-color: rgba(106, 182, 20, 0.2);
+    position:absolute;
+    height: 59%;
+    width: 45%;
+    top: 19%;
+    right: 4%;
+}
 .skills{ 
     text-align:justify;
     background-color:rgba(38, 55, 209, 0.2);  
     list-style-type: circle;
     position: relative;
-    left:53%;
-    
+    width:93%;
+    padding-left: 5.7%;
+    display: inline-;
+    height: 100%;
 }
 .background_contenido a{
     text-decoration: none;
@@ -47,7 +57,7 @@ body{
 .background_contenido{
     position: relative;
     width: 19%;
-    left: 30%;
+    left: 32.1%;
     text-align: justify;
     background-color: rgba(139, 9, 63, 0.3);
 }
