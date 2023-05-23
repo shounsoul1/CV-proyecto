@@ -3,13 +3,16 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow: hidden;
+}
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
     background-image: url(img/fondo.jpg);
     background-size: cover !important;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    display: inline-block;
 }
 .nombre_apellido{
     color: aqua;
@@ -26,13 +29,12 @@
     padding:20px;
 }
 .skills{ 
-    display: inline-block;
     text-align:justify;
     background-color:rgba(38, 55, 209, 0.2);  
     list-style-type: circle;
     position: relative;
-    top: 50% !important;
-    left: 58%;
+    left:53%;
+    
 }
 .background_contenido a{
     text-decoration: none;
@@ -43,7 +45,6 @@
     border-top: 5px dotted #fff;
 } 
 .background_contenido{
-    display: inline-block;
     position: relative;
     width: 19%;
     left: 30%;
