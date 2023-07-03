@@ -5,54 +5,43 @@
     padding: 0px;
 }
 body{
-    overflow: hidden;
 }
-.inicio{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3));
-    background-image: url(img/fondo.jpg);
-    background-size: cover !important;
+#container{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    width: 100vw;
-    display: inline-block;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
 }
+
 .nombre_apellido{
     color: rgb(80, 180, 34);
-    font-size: 50px;
     font-style: italic;
-    opacity: 0.8;
+    opacity: 0.8; 
     text-shadow: 6px 2px 4px rgb(212, 65, 54) ;
 }
 .info-extra{
     color: rgb(42, 165, 48);
-    font-size: 23px;
     text-shadow: 1px 1px 2px;
 }
 .background_profile{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
     text-align: center;
     background-color: rgba(13, 179, 68, 0.219);
-    padding:20px;
-    margin-top: 3%;
-    
+    margin-top: 2em;
+    padding: 1em 0;
+    width: 100%;
+    font-size: 1.3em;
+    font-style: italic;
 }
 .datos-cv{
-    position:absolute;
-    height: 60%;
-    width: 100%;
-    top:25%;
-    right: 0%;
-
+    display: flex;
 }
 .skills{ 
-    text-align:justify;
     background-color:rgba(38, 55, 209, 0.2); 
     list-style-type: circle;
-    position: relative;
-    width:23%;
-    left: 51%;
-    top: 3%;
-    padding-bottom: 2%;
-    padding-left: 1.7%;
 }
 ul{
     color: rgb(231, 100, 12);
@@ -74,18 +63,10 @@ ul{
 }
 .contacto{
     color: aqua;
-    border-top: 5px dotted #fff;
 } 
-.contenido_sobre-mi{
-    height: 100%;
-}
 .background_contenido{
-    position: relative;
-    width: 19%;
-    height: 50%;
-    left: 32.1%;
-    text-align: justify;
     background-color: rgba(139, 9, 63, 0.3);
+
 }
 .background_contenido .titulo{
     color: rgb(0, 96, 185);
@@ -95,10 +76,18 @@ ul{
     color:rgb(83, 162, 236);
     
 }
+.contenido{
+    display:flex;
+    justify-content: center;
+}
+.img-prof{
+    position: relative;
+    background-color: aqua;
+}
 .image-profile{
     position: absolute;
-    right: 69%;
-    top:29%;
-    border:  3px solid yellowgreen;
-    border-radius: 5px;
+    top: 0;
+    right: 1em;
+    border-radius: 0.5em;
+    border: 0.2em yellowgreen solid;
 }
